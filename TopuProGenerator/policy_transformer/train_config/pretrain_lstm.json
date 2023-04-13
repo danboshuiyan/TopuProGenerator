@@ -1,0 +1,10 @@
+{
+    "datasets": "./data/scaffolds_omega_rmsdgood_HHH.csv",
+    "datasets_col": 2,
+    "num_embedding_layer_nodes": 500,
+    "num_hidden_layer_nodes": 1024,
+    "num_hidden_layers": 10,
+    "learning_rate": 1e-6,
+    "epoch_pretrain": 10,
+    "save_addr": "./result/model_lstm10_tag_HHH123"
+}
