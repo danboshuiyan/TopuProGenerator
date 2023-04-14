@@ -7,7 +7,7 @@ import torch.nn.functional as F
 import numpy as np
 import tqdm
 from sklearn import preprocessing
-import src.model_transformer as Generator
+import src.generator_transformer as Generator
 import argparse
 import json
 
