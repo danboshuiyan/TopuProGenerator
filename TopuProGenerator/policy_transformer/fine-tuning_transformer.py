@@ -9,7 +9,7 @@ from src.reinforcement_pean import PolicyGradient
 from utils import read_sequence_file
 from data import GeneratorData, DiscriminatorData
 from src.discriminator import Discriminator
-import src.model_transformer as Generator
+import src.generator_transformer as Generator
 import matplotlib.pyplot as plt
 import argparse
 import json
