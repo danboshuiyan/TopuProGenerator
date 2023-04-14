@@ -12,7 +12,7 @@ import torch.utils.data as Data
 import argparse
 import json
 sys.path.append('./src/')
-import src.model_transformer as Generator
+import src.generator_transformer as Generator
 
 use_cuda = torch.cuda.is_available()
 tokens = ['/', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'G', 'A', 'V', 'L', 'I', 'F', 'W', 'Y', 'D', 'H', 'N', 'E', 'K', 'Q', 'M', 'R', 'S', 'T', 'C', 'P', 'U', 'O']
